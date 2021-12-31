@@ -47,12 +47,14 @@ public class PlaceholderAPI extends JavaPlugin{
         new NumberUtils();
 
         int resource = 11182;
+        /* We don't need this
         try {
             if (Bukkit.getPluginManager().isPluginEnabled("MVdWUpdater"))
                 new MVdWUpdaterHook(this, resource);
         } catch (Throwable ex) {
             // No updater
         }
+        */
 
         SendConsole.info("Sending metrics ...");
         try {

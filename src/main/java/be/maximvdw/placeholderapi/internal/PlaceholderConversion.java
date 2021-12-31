@@ -751,7 +751,7 @@ public class PlaceholderConversion {
                         ItemStack item = (ItemStack) replacer.getResult(event);
                         if (item == null)
                             return 0;
-                        return item.getTypeId();
+                        return item.getType().getId();
                     }
                 });
         placeholderPackObj.addOfflinePlaceholder(placeholder.toLowerCase() + ":maxsize", description + " max size", playerrequired,
@@ -1077,7 +1077,7 @@ public class PlaceholderConversion {
                         ItemStack item = (ItemStack) replacer.getResult(event);
                         if (item == null)
                             return 0;
-                        return item.getTypeId();
+                        return item.getType().getId();
                     }
                 });
         placeholderPackObj.addPlaceholder(placeholder.toLowerCase() + ":maxsize", description + " max size",

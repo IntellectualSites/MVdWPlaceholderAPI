@@ -1,7 +1,5 @@
 package be.maximvdw.placeholderapi.internal.updater;
 
-import be.maximvdw.mvdwupdater.MVdWUpdater;
-import be.maximvdw.mvdwupdater.spigotsite.api.resource.Resource;
 import be.maximvdw.placeholderapi.internal.ui.SendConsole;
 import be.maximvdw.placeholderapi.internal.utils.bukkit.Version;
 import org.bukkit.Bukkit;
@@ -19,6 +17,7 @@ import java.net.URLDecoder;
 public class MVdWUpdaterHook {
     private static boolean updated = false;
 
+    /* Unneeded - we just need the API
     public MVdWUpdaterHook(Plugin plugin, int resourceId) {
         try {
             MVdWUpdater updater = (MVdWUpdater) Bukkit.getPluginManager().getPlugin("MVdWUpdater");
@@ -73,6 +72,7 @@ public class MVdWUpdaterHook {
             e.printStackTrace();
         }
     }
+    */
 
     public static boolean isUpdated() {
         return updated;
