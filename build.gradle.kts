@@ -32,7 +32,7 @@ dependencies {
 }
 
 group = "com.intellectualsites.mvdwplaceholderapi"
-version = "3.1.1-SNAPSHOT"
+version = "3.1.1"
 description = "MVdWPlaceholderAPI"
 
 tasks {
